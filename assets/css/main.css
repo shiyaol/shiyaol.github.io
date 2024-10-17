@@ -125,13 +125,13 @@ input, select, textarea {
 
 	@font-face {
 		font-family: 'p_hand';
-		src: url('PatrickHand-Regular.ttf');
+		src: url('WorkSans-VariableFont_wght.ttf');
 	  }
 
 	body, input, select, textarea {
 		font-family: "p_hand", Helvetica, sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: 0;
 		line-height: 1.65;
 	}
 
@@ -183,6 +183,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 12pt;
 	}
 
 		p.content {
@@ -2439,6 +2440,7 @@ input, select, textarea {
 	ul {
 		margin-top: 0; 
 		padding-top: 0; 
+		font-size: 12pt;
 	}
 
 	ul li {
